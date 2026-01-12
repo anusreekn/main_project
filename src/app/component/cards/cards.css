@@ -1,0 +1,51 @@
+
+/* Make cards smaller */
+.card {
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+/* Smaller image */
+.card-img-top {
+  height: 350px;        /* key change */
+  object-fit: cover;
+}
+
+/* Reduce padding */
+.card-body {
+  padding: 0.75rem !important;
+}
+
+/* Smaller title */
+.card-title {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Smaller description */
+.card-text {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+/* Smaller price */
+.text-primary.fs-5 {
+  font-size: 0.9rem !important;
+}
+
+/* Smaller buttons */
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+/* Reduce spacing between buttons */
+.card-body .d-flex {
+  gap: 0.25rem;
+}
+
+/* Optional hover effect */
+.card:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
